@@ -1,0 +1,10 @@
+/* 让聊天区域占满整个屏幕 */
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.chat-container {
+    flex: 1; /* 让聊天区域占据剩余空间 */
+    overflow-y: auto; /* 使用滚动条 */
+}
